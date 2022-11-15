@@ -1,0 +1,26 @@
+@import "./base.css";
+@import "./transition.css";
+
+@import "./variable.scss";
+@import "./mixin.scss";
+
+#app {
+  width: 1000px;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+.title {
+  background-color: #ddd;
+  padding: 5px;
+  text-align: center;
+}
+
+.bordered-box {
+  width: 100%;
+  min-height: 20rem;
+  border: 1px solid $gray6;
+  padding: 2px;
+  border-radius: 2px;
+  text-align: center;
+}

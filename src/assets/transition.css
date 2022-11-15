@@ -1,0 +1,36 @@
+/* 定义过渡动画 */
+/* 定义fade动画的入场和出场效果 */
+.slide-fade-enter-active,
+.slide-fade-leave-active {
+  transition: all 0.5s ease;
+}
+
+/* 定义fade动画的场外状态 */
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+/* 定义leftward动画的场外状态 */
+.leftward-enter-active,
+.leftward-fade-leave-active {
+  transition: all 0.5s ease;
+}
+
+.leftward-enter-from,
+.leftward-leave-to {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+/* 定义fade动画的场外状态 */
+.fade-enter-active,
+.fade-fade-leave-active {
+  transition: all 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}

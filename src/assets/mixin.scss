@@ -1,0 +1,15 @@
+/* 带参数和默认值 @include centeredFlexBox(column) */
+@mixin centeredFlexBox($direction: row) {
+  display: flex;
+  // 使用参数
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin singleLineElipsis($width: 95%) {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: $width;
+}
